@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Dashboard Customers</title>
+</head>
+<body>
+  <div class="page">
+    <aside class="menu">
+        <div class="dashboard"> 
+            <div class="dashboard__block">
+              <img class="dashboard__block_icon" src="img/setting.svg" alt="setting">
+              <span class="dashboard__block_name">Dashboard</span>    
+            </div>                      
+            <div class="dashboard__version">v.01</div>               
+        </div>
+        
+        <div class="products">           
+            <div class="products__item">
+                <img class="products__item_icon" src="img/key-square.svg" alt="key-square">
+                <span class="products__item_name">Dashboard</span>
+            </div>
+            <div class="products__item">
+                <img src="img/3d-square.svg" aspant="3d-square">
+                <span class="products__item_name">Product</span>
+                <img class="products__item_shevron" src="img/chevron-right.svg" alt="chevron-right">
+            </div> 
+            <div class="products__item visited">
+                <img src="img/user-square.svg" aspant="user-square">
+                <span class="products__item_name name-visited">Customers</span>
+                <img class="products__item_shevron shevron-visited" src="img/chevron-right-white.svg" alt="chevron-right">
+            </div> 
+            <div class="products__item after-visited">
+                <img src="img/wallet-money.svg" alt="waspanspanet-money">
+                <span class="products__item_name">Income</span>
+                <img class="products__item_shevron" src="img/chevron-right.svg" alt="chevron-right">
+            </div> 
+            <div class="products__item">
+                <img src="img/discount-shape.svg" alt="discount-shape">
+                <span class="products__item_name">Promote</span>
+                <img class="products__item_shevron" src="img/chevron-right.svg" alt="chevron-right">
+            </div> 
+            <div class="products__item">
+                <img src="img/message-question.svg" alt="message-question">
+                <span class="products__item_name">Help</span>
+                <img class="products__item_shevron" src="img/chevron-right.svg" alt="chevron-right">
+            </div>                      
+        </div>
+        <div class="worker">
+            <img class="worker__icon" src="img/face.svg" alt="face">
+            <div class="worker__characteristic">
+                <div class="worker__characteristic_name">Evano</div>
+                <div class="worker__characteristic_profession">Progect Manager</div>    
+            </div>
+        </div>
+    </aside>
+    <main class="data">
+        <div class="wellcome"> Hello Evano 👋🏼,</div>  
+        <div class="data-table">
+        <div class="members">
+            <div class="members__data">
+                <span class="members__data_nambers">All Customers</span>
+                <span class="members__data_active">Active Members</span> 
+            </div>
+            <div class="members__search">
+                <img class="members__search_icon" src="img/search.svg" alt="search">    
+                <input class="members__search_input" type="text" placeholder="Search"> 
+            </div>           
+        </div> 
+        <div class="customers">       
+        <div class="customers__header">
+            <span class="customers__header_name headers">Customer Name</span>
+            <span class="customers__header_company headers">Company</span>
+            <span class="customers__header_phone headers">Phone Number</span>
+            <span class="customers__header_email headers">Email</span>
+            <span class="customers__header_country headers">Country</span>
+            <span class="customers__header_status headers">Status</span>
+        </div>
+        <div class="line-header"></div>
+        <div class="customers__item">
+            <span class="customers__item_name items">Jane Cooper</span>
+            <span class="customers__item_company items">Mirosoft</span>
+            <span class="customers__item_phone items">(255) 555-0118</span>
+            <span class="customers__item_email items">jane@microsoft.com</span>
+            <span class="customers__item_country items">United States</span>
+            <span class="customers__item_status items">Active</span>
+        </div>
+        <div class="line"></div>
+        <div class="customers__item">
+            <span class="customers__item_name items">Floyd Miles</span>
+            <span class="customers__item_company items">Yahoo</span>
+            <span class="customers__item_phone items">(205) 555-0100</span>
+            <span class="customers__item_email items">floyd@yahoo.com</span>
+            <span class="customers__item_country items">Kiribati</span>
+            <span class="customers__item_status inactive items">Inactive</span>
+        </div>
+        <div class="line"></div>
+        <div class="customers__item">
+            <span class="customers__item_name items">Ronalnd Richards</span>
+            <span class="customers__item_company items">Adobe</span>
+            <span class="customers__item_phone items">(302) 555-0107</span>
+            <span class="customers__item_email items">ronald@adobe.com</span>
+            <span class="customers__item_country items">Israel</span>
+            <span class="customers__item_status inactive items">Inactive</span>
+        </div>
+        <div class="line"></div>
+        <div class="customers__item">
+            <span class="customers__item_name items">Marvin McKinney</span>
+            <span class="customers__item_company items">Tesla</span>
+            <span class="customers__item_phone items">(252) 555-0126</span>
+            <span class="customers__item_email items">marvin@tesla.com</span>
+            <span class="customers__item_country items">Iran</span>
+            <span class="customers__item_status items">Active</span>
+        </div>
+        <div class="line"></div>
+        <div class="customers__item">
+            <span class="customers__item_name items">Jerome Bell</span>
+            <span class="customers__item_company items">Google</span>
+            <span class="customers__item_phone items">(629) 555-0129</span>
+            <span class="customers__item_email items">jerome@google.com</span>
+            <span class="customers__item_country items">Réunion</span>
+            <span class="customers__item_status items">Active</span>
+        </div>
+        <div class="line"></div>
+        <div class="customers__item">
+            <span class="customers__item_name items">Kathryn Murphy</span>
+            <span class="customers__item_company items">Micrisoft</span>
+            <span class="customers__item_phone items">(406) 555-0120</span>
+            <span class="customers__item_email items">kathryn@microsoft.com</span>
+            <span class="customers__item_country items">Curaçao</span>
+            <span class="customers__item_status items">Active</span>
+        </div>
+        <div class="line"></div>
+        <div class="customers__item">
+            <span class="customers__item_name items">Jacob Jones</span>
+            <span class="customers__item_company items">Yahoo</span>
+            <span class="customers__item_phone items">(208) 555-0112</span>
+            <span class="customers__item_email items">jacob@yahoo.com</span>
+            <span class="customers__item_country items">Brasil</span>
+            <span class="customers__item_status items">Active</span>
+        </div> 
+        <div class="line"></div>
+        <div class="customers__item">
+            <span class="customers__item_name items">Kristin Watson</span>
+            <span class="customers__item_company items">Facebook</span>
+            <span class="customers__item_phone items">(704) 555-0127</span>
+            <span class="customers__item_email items">kristin@facebook.com</span>
+            <span class="customers__item_country items">Åland Islands</span>
+            <span class="customers__item_status inactive items">Inactive</span>
+        </div>        
+        <div class="line"></div>
+        <div class="data-footer">
+            <div class="pages">Showing data 1 to 8 of  256K entries</div>
+            <div class="page-number">
+                <span class="page-number__item items"><</span>
+                <span class="page-number__item page-number__visited">1</span>
+                <span class="page-number__item items">2</span>
+                <span class="page-number__item items">3</span>
+                <span class="page-number__item items">4</span>
+                <span class="page-number__item items">...</span>
+                <span class="page-number__item items">40</span>
+                <span class="page-number__item items">></span>
+            </div>  
+        </div>    
+    </div>
+    </main>
+  </div>
+</div> 
+</body>
+</html>
